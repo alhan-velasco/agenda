@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agenda Telefonica</title>
+    <link rel="stylesheet" href="./src/style.css">
+</head>
+<body>
+    <h1>Agenda Telefonica</h1>
+    <form id="formulario">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" required>
+        <label for="telefono">Telefono:</label>
+        <input type="text" id="telefono" required>
+        <button id="agregar">Agregar Contacto</button>
+    </form>
+    <button id="extraer">Extraer Contacto</button>
+
+    <ul id="listaContactos"></ul>
+
+    <script type="module" src="./src/controllers/mainController.js"></script>
+</body>
+</html>
