@@ -1,4 +1,4 @@
-import { Queue } from "../models/queue.js";
+import { Queue } from "../models/Queue.js";
 
 const agenda = new Queue();
 
